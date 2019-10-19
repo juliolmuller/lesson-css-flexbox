@@ -93,3 +93,28 @@ h2, h3 {
 .call-out:nth-child(1) {background-color: #c0dbe2;}
 .call-out:nth-child(2) {background-color: #cdf1c3;}
 .call-out:nth-child(3) {background-color: #ccb9da;}
+
+/* Quarto Exemplo */
+.fixed-size-container {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  background-color: #fff;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*flex-wrap: nowrap; /* DEFAULT */
+  flex-wrap: wrap;
+}
+
+.fixed-size {
+  width: 150px;
+  height: 100px;
+  background-color: #990b47;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
